@@ -1,0 +1,9 @@
+AWS EC2 Part-1
+
+* VM
+* Snapshots
+* Load Balancers
+* Auto Scaling Groups
+
+Snapshot is a point in time backup of specific volume while AMI is is backup of the entire EC2 instance that might have multiple attached volumes, exactly like virtual machines. 
+With Packer, you can build automated machine images including AMIs for EC2, VMDK/VMX files for VMware, OVF exports for VirtualBox, etc.
