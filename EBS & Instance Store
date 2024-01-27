@@ -1,0 +1,38 @@
+Elastic Block Store (EBS)
+Instance Store
+
+
+
+Elastic Block Store: 
+AWS EBS is also called AWS Elastic Block Store. EBS is a service that provides storage volumes. You can use provided storage volumes in Amazon EC2 instances.
+EBS volumes are used for data that needs to persist. It is important to backup the data with AWS EBS snapshots.
+
+* It is a permanent storage
+* Maximum upto 16TB/64TB
+* Size can be extend
+* Available in SSD &  HDD
+* Available for every EC2 Instance
+Connection between the EBS Volume & Our EC2 Instance is based on the Network, So data won't be deleted when ever it stopped the instance.
+
+Instance Store:
+* It is a temporary storage & data lost in case server is stopped & Started.
+* The size is fixed
+* Only available for certain sizes.
+* We cannot extend the size.
+* Only available in SSD Disks.
+
+
+Amazon EBS volume types
+Solid State Drives        (SSD)	          Hard Disk Drives (HDD)
+Volume Size	              4 GB - 16 TB  	125 GB - 16 TB
+Max IOPS**/Volume	        64,000	        500
+Max Throughput***/Volume	1,000 MB/s	    500 MB/s
+Max IOPS/Instance	        160,000	        160,000
+
+
+What is EBS multi-attach?
+Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD ( io1 or io2 ) volume to multiple instances that are in the same Availability Zone.
+You can attach multiple Multi-Attach enabled volumes to an instance or set of instances.
+
+Xen-Hypervisor
+Nitro-Hypervisor
