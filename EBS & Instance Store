@@ -30,9 +30,16 @@ Max Throughput***/Volume	1,000 MB/s	    500 MB/s
 Max IOPS/Instance	        160,000	        160,000
 
 
+What is IOPS in EC2?
+What is an IOPS AWS? IOPS is an acronym for “input/output operations per second” and is a popular performance metric used to distinguish one storage type from another.
+
+
 What is EBS multi-attach?
 Amazon EBS Multi-Attach enables you to attach a single Provisioned IOPS SSD ( io1 or io2 ) volume to multiple instances that are in the same Availability Zone.
 You can attach multiple Multi-Attach enabled volumes to an instance or set of instances.
 
 Xen-Hypervisor
 Nitro-Hypervisor
+
+
+
